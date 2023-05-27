@@ -1,0 +1,100 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="navbar.js"></script>
+    <link rel="shortcut icon" href="../image/logoweb.png" type="image/x-icon" />
+    <!-- link import icon & font -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/open-sans-y2k"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <header class="sticky">
+      <ul class="navbar">
+        <li><a href="#" style="color: #ff0000">HOME</a></li>
+        <li><a href="#">PORTOFOLIO</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="container">
+        <div class="container-judul">
+          <h1 style="font-family: Arial">Hallo,</h1>
+          <h1 style="font-weight: bold; font-size: 50px">
+            I Am LOVE FRAZA AULIA SATRIA
+          </h1>
+          <h4 style="font-family: sans-serif; margin-bottom: 10px">
+            NIM 2200018050
+          </h4>
+          <h4 style="font-family: sans-serif; margin-bottom: 10px">KELAS B</h4>
+          <h4 style="font-family: sans-serif">
+            Ini merupakan tugas pemrograman Web semester 2 yang menjadi syarat
+            untuk mengikuti uts kali ini
+          </h4>
+          <button>Lets Talk <i class="ri-arrow-right-line"></i></button>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-github-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </li>
+            </ul>
+            <h4 style="margin-top: 20px">
+              Download <span style="color: #ff0000">Curriculum Vitae</span>
+            </h4>
+          </div>
+        </div>
+        <div class="container-gambar">
+          <div class="background"></div>
+          <img src="/IMG_1572-removebg-preview.png" alt="gambar-jajak" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>Copyright @jajak 2022</h2>
+    </footer>
+  </body>
+</html>
